@@ -248,7 +248,7 @@ struct PigGameView: View {
 				if gameOver, let winnerIndex {
 					Text("🎉 Winner: \(players[winnerIndex].name)！")
 						.font(.headline.bold())
-						.foregroundColor(.purple)
+						.foregroundColor(.orange)
 						.padding(.top, 4)
 				} else if isComputerTurn {
 					Text("Computer 正在思考…")
